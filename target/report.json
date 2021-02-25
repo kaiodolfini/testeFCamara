@@ -1,0 +1,434 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 48869500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicacao Login",
+            "match": {
+              "location": "LoginSteps.queEstouAcessandoAAplicaO()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T13:40:15.812Z",
+        "line": 21,
+        "name": "Deve validar regras dos campos de login",
+        "description": "",
+        "id": "teste-de-login;deve-validar-regras-dos-campos-de-login;;2",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 87054100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o login \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informarOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 93984700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "informar a senha \"teste\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"teste\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informoASenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 592110600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar em Login",
+            "match": {
+              "location": "LoginSteps.clicarNoLogin()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 63207200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "recebo a mensagem \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 42222400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicacao Login",
+            "match": {
+              "location": "LoginSteps.queEstouAcessandoAAplicaO()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T13:40:16.752Z",
+        "line": 22,
+        "name": "Deve validar regras dos campos de login",
+        "description": "",
+        "id": "teste-de-login;deve-validar-regras-dos-campos-de-login;;3",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 123906500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o login \"tomsmith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informarOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 123140200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "informar a senha \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informoASenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 500006100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar em Login",
+            "match": {
+              "location": "LoginSteps.clicarNoLogin()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 21136000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "recebo a mensagem \"Your password is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your password is invalid!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 26451600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicacao Login",
+            "match": {
+              "location": "LoginSteps.queEstouAcessandoAAplicaO()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T13:40:17.566Z",
+        "line": 23,
+        "name": "Deve validar regras dos campos de login",
+        "description": "",
+        "id": "teste-de-login;deve-validar-regras-dos-campos-de-login;;4",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77839500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o login \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informarOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 75814800,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "informar a senha \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informoASenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 470984300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar em Login",
+            "match": {
+              "location": "LoginSteps.clicarNoLogin()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 18391700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "recebo a mensagem \"Your username is invalid!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Your username is invalid!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      },
+      {
+        "line": 10,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Contexto",
+        "steps": [
+          {
+            "result": {
+              "duration": 23341900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que estou acessando a aplicacao Login",
+            "match": {
+              "location": "LoginSteps.queEstouAcessandoAAplicaO()"
+            },
+            "keyword": "Dado "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-24T13:40:18.238Z",
+        "line": 24,
+        "name": "Deve validar regras dos campos de login",
+        "description": "",
+        "id": "teste-de-login;deve-validar-regras-dos-campos-de-login;;5",
+        "type": "scenario",
+        "keyword": "Esquema do Cenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 78117000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "informar o login \"tomsmith\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tomsmith\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informarOLogin(String)"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 85879000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "informar a senha \"SuperSecretPassword!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SuperSecretPassword!\"",
+                  "offset": 17
+                }
+              ],
+              "location": "LoginSteps.informoASenha(String)"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 504301500,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "clicar em Login",
+            "match": {
+              "location": "LoginSteps.clicarNoLogin()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 19903100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "recebo a mensagem \"You logged into a secure area!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"You logged into a secure area!\"",
+                  "offset": 18
+                }
+              ],
+              "location": "LoginSteps.receboAMensagem(String)"
+            },
+            "keyword": "Entao "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@funcionais"
+          }
+        ]
+      }
+    ],
+    "name": "Teste de Login",
+    "description": "\tComo um usu�rio \n\tGostaria de testar o login\n\tPara garantir que o acesso a aplicacao esteja correto",
+    "id": "teste-de-login",
+    "keyword": "Funcionalidade",
+    "uri": "file:src/test/resources/Features/TesteLogin.feature",
+    "tags": [
+      {
+        "name": "@funcionais",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
