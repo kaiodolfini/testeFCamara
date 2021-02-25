@@ -3,6 +3,7 @@ package br.com.kaio.core;
 import static br.com.kaio.core.DriverFactory.getDriver;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 
 public class DSL {
 
@@ -23,25 +24,30 @@ public class DSL {
 	}
 
 	public void clicar(String locator) {
-		getDriver().findElement((By.xpath(locator))).click();
+		findElement(locator).click();
 	}
 
 	public String obterTexto(String locator) {
-		return getDriver().findElement((By.xpath(locator))).getText();
+		return findElement(locator).getText();
 	}
 
 	public boolean isSelected(String locator) {
-		return getDriver().findElement((By.xpath(locator))).isSelected();
+		return findElement(locator).isSelected();
 	}
 
 	public boolean isDisplayed(String locator) {
-		return getDriver().findElement((By.xpath(locator))).isDisplayed();
+		return findElement(locator).isDisplayed();
 	}
 
 	public String escrever(String locator, String texto) {
-		getDriver().findElement((By.xpath(locator))).clear();
-		getDriver().findElement((By.xpath(locator))).sendKeys(texto);
+		findElement(locator).clear();
+		findElement(locator).sendKeys(texto);
 		return texto;
+	}
+	
+	
+	private WebElement findElement(String locator) {
+		return getDriver().findElement((By.xpath(locator)));
 	}
 
 }
